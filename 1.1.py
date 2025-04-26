@@ -1,0 +1,5 @@
+J = input().strip()
+S = input().strip()
+jewels = set(J)
+count = sum(1 for c in S if c in jewels)
+print(count)
